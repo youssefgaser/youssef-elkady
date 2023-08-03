@@ -1,0 +1,388 @@
+
+
+body {
+    margin: 0px;
+}
+
+hr {
+    border: dotted #e5dccd 6px;
+    border-bottom: none;
+    margin-top: 100px;
+    width: 4%;
+}
+
+h2 {
+    color: #b69b81;
+}
+
+h3 {
+    color: #745e49;
+}
+
+p {
+    color: #513e2d;
+}
+
+.hero {
+    display: flex;
+}
+
+.mountain {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.heading {
+    width: 50%;
+    font-family: 'Cinzel', serif;
+    font-size: 3rem;
+    color: #946b46;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.container div.heading p {
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 480px) {
+    .mountain {
+        height: 400px;
+    }
+    .heading {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+    .mountain {
+        height: 600px;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+    .mountain {
+        height: 800px;
+    }
+}
+
+@media (min-width: 1601px) {
+    .mountain {
+        height: 100px;
+    }
+}
+
+.Resume {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.resume-group {
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 50px;
+}
+
+#pic-of-me {
+    width: 200px;
+    height: 200px;
+}
+
+#Youssef {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.Hello {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.Hello h2#Hello {
+    font-family: 'Cinzel', serif;
+}
+
+#me {
+    text-align: center;
+}
+
+#h2-skills {
+    margin-top: 100px;
+}
+
+@media (max-width: 480px) {
+    #my-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #h2-skills {
+        text-align: center;
+        width: 100vh;
+    }
+    
+    #my-skills h2#h2-skills {
+        font-family: 'Cinzel', serif;
+    }
+    
+    #skills-group {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #skills-group-1{
+        display: grid;
+        grid-template-columns: 100px minmax(220px,300px);
+    }
+    
+    #img-skills-web {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        padding-top: 50px;
+        margin-left: 5px;
+    }
+    
+    #skills-group-1-text {
+        margin-top: 25px;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+
+    #skills-group-1-text h3#design {
+        margin-top: 23px;
+        margin-bottom: 0px;
+    }
+
+    #skills-group-2 {
+        display: grid;
+        grid-template-columns: 100px minmax(220px,300px);
+        margin-top: 20px;
+    }
+    
+    #img-skills-languages {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    
+    #skills-group-2-text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+    #my-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #h2-skills {
+        text-align: center;
+        width: 100vh;
+    }
+    
+    #my-skills h2#h2-skills {
+        font-family: 'Cinzel', serif;
+    }
+    
+    #skills-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 80%
+    }
+    
+    #skills-group-1{
+        display: grid;
+        grid-template-columns: 200px minmax(250px,350px);
+    }
+    
+    #img-skills-web {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+        padding-top: 50px;
+        margin-left: 5px;
+    }
+    
+    #skills-group-1-text {
+        margin-top: 25px;
+        font-family: 'Raleway', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 50px;
+    }
+
+    #skills-group-1-text h3#design {
+        margin-top: 23px;
+        margin-bottom: 0px;
+    }
+
+    #skills-group-2 {
+        display: grid;
+        grid-template-columns: 200px minmax(250px,350px);
+        margin-top: 20px;
+    }
+    
+    #img-skills-languages {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-left: 35px;
+        margin-top: 40px;
+    }
+    
+    #skills-group-2-text {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 55px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+@media (min-width: 1201px) {
+    #my-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #h2-skills {
+        font-family: 'Cinzel', serif;
+    }
+    
+    #skills-group {
+        color: black;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    
+    #skills-group-1{
+        display: grid;
+        grid-template-columns: 400px minmax(340px,380px);
+    }
+    
+    #img-skills-web {
+        width: 400px;
+    }
+    
+    #skills-group-1-text {
+        margin-top: 25px;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    #skills-group-2 {
+        display: grid;
+        grid-template-columns: 250px minmax(320px,400px);
+    }
+    
+    #img-skills-languages {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        object-fit: fill;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    #skills-group-2-text {
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-top: 15px;
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+#get-in-touch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#h2-get-in-touch {
+    font-family: 'Cinzel', serif;
+    width: 100%;
+}
+
+#h3-get-in-touch {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+}
+
+#p-get-in-touch {
+    font-family: 'Raleway', sans-serif;
+    width: 80%;
+}
+
+#button {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+#btn {
+    color: white;
+    background-color: #836f5c;
+    background: linear-gradient(300deg, #3b2416, #ecc4a1, #946b46);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#footer {
+    background: linear-gradient(300deg, #946b46, #ecc4a1, #946b46);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    width: 100%;
+}
+
+#footer-a {
+    width: 100%;
+    padding-top: 50px; 
+}
+
+.footer-a {
+    text-decoration: none;
+    color: #745e49;
+    margin: 20px;
+    font-size: 1rem
+}
+
+#copyright {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
